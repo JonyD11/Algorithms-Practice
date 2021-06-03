@@ -7,7 +7,7 @@ public class Bubble_Sort extends Sort {
 	 * order.
 	 * */
 	
-	void Sort (int[] arr)
+	void Sort(int[] arr)
 	{
 		int size = arr.length;
 		for (int i = 0; i < size; i++)

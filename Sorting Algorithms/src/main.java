@@ -31,7 +31,14 @@ public class main {
 		ob1_1.printArray(arr1_1);
 		System.out.println();
 		
-		//
+		// Insertion Sort Implementation
+		Insertion_Sort ob2 = new Insertion_Sort();
+		
+		int arr2[] = {53, 22, 48, 15, 10, 5, 75};
+		ob2.Sort(arr2);
+		System.out.println("Insertion Sort");
+		ob2.printArray(arr2);
+		System.out.println();
 		
 	}
 
