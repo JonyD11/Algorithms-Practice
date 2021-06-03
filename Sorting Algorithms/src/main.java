@@ -40,6 +40,15 @@ public class main {
 		ob2.printArray(arr2);
 		System.out.println();
 		
+		// Recursive Insertion Sort Implementation
+		Insertion_Sort ob2_2 = new Insertion_Sort();
+		
+		int arr2_2[] = {53, 22, 48, 15, 10, 5, 75};
+		ob2_2.Sort1(arr2_2, arr2_2.length);
+		System.out.println("Recursive Insertion Sort Implementation");
+		ob2_2.printArray(arr2_2);
+		System.out.println();
+		
 	}
 
 }
