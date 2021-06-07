@@ -58,6 +58,16 @@ public class main {
 		ob3.printArray(arr3);
 		System.out.println();
 		
+		// Iterative Merge Sort Implementation
+		Merge_Sort ob3_2 = new Merge_Sort();
+		
+		int arr3_3[] = {53, 22, 48, 15, 10, 5, 75};
+		ob3_2.Sort(arr3_3);
+		System.out.println("Iterative Merge Sort Implementation");
+		ob3_2.printArray1(arr3_3, arr3_3.length);
+		System.out.println();
+		
+		
 	}
 
 }
