@@ -49,6 +49,15 @@ public class main {
 		ob2_2.printArray(arr2_2);
 		System.out.println();
 		
+		// Merge Sort Implementation
+		Merge_Sort ob3 = new Merge_Sort();
+		
+		int arr3[] = {53, 22, 48, 15, 10, 5, 75};
+		ob3.Sort(arr3);
+		System.out.println("Merge Sort Implementation");
+		ob3.printArray(arr3);
+		System.out.println();
+		
 	}
 
 }
