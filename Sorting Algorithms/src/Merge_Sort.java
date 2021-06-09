@@ -136,7 +136,7 @@ public class Merge_Sort extends Sort {
 		int i;
 		for (i = 0; i < size; i++)
 			System.out.printf("%d ", A[i]);
-		System.out.println("\n");
+		System.out.println();
 	}
 
 }

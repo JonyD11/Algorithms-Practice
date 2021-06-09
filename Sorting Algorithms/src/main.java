@@ -67,7 +67,27 @@ public class main {
 		ob3_2.printArray1(arr3_3, arr3_3.length);
 		System.out.println();
 		
+		// Quick Sort Implementation
+		Quick_Sort ob4 = new Quick_Sort();
 		
+		int[] arr4 = {53, 22, 48, 15, 10, 5, 75};
+	    int n = arr4.length;
+	     
+	    ob4.quickSort(arr4);
+	    System.out.println("Quick Sort Implementation");
+	    ob4.printArray(arr4, n);
+	    System.out.println();
+	    
+	    // Iterative Quick Sort Implementation
+	    Quick_Sort  ob4_2 = new Quick_Sort();
+	    
+	    int[] arr4_2 = {53, 22, 48, 15, 10, 5, 75};
+	    ob4_2.quickSortIterative(arr4_2);
+	    System.out.println("Iterative Quick Sort Implementation");
+	    ob4_2.printArray(arr4_2);
+	    System.out.println();
+	    
+	    //
 	}
 
 }
